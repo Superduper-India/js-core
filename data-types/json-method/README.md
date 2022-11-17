@@ -2,8 +2,12 @@
 
 ## 자문자답
 * JSON이란?
-* JSON.stringify(obj)로 객체를 JSON으로 바꿔준 문자열을 무엇이라고 부르는가?
+<!--javascript object notation의 약자로,
+키-값쌍으로 이루어진 데이터 오브젝트를 교환하기 위해 사용하는 범용 데이터 포멧-->
+* JSON.stringify(obj)메서드로 객체를 JSON으로 바꿔준 문자열을 무엇이라고 부르는가?
+<!--JSON으로 인코딩된, 혹은 직렬화 된, 혹은 문자열 처리된 객체라고 부른다.-->
 * JSON.stringify는 객체 뿐만아니라 원시값에도 적용할 수 있다? (o or x)
+<!--o-->
 
 ## memo
 > https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Object/toString
