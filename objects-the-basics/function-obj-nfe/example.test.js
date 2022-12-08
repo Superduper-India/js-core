@@ -14,7 +14,6 @@ function example() {
   //    아래의 경우 왼쪽 평가 대상이 undefined이기 때문에 undefined반환
   // console.log(user.address?.street);
 
-  // Q. 아래가 이해안감
   //    참고로 user가 null이나 undefined가 아니라, 실제 값이 존재한다면
   //    반드시 user.address프로퍼티는 있어야한다. 그렇지 않으면 user?.address.street의 두 번째 점 연산자에서 에러가 발생
   // console.log(user?.address.street); // TypeError: Cannot read properties of undefined (reading 'street')
